@@ -5,10 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Мобильный ввод данных</title>
     
-    <!-- Подключение PWA-манифеста -->
     <link rel="manifest" href="manifest.json">
     
-    <!-- Настройки для мобильных браузеров (standalone режим и цвета) -->
     <meta name="theme-color" content="#007AFF">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -18,12 +16,24 @@
 </head>
 <body>
 
-    <!-- Индикатор синхронизации в углу -->
     <div id="sync-indicator" class="synced">✅ Готово</div>
 
     <div class="container">
         <h2>Ввод данных</h2>
         <form id="data-form">
+            <select id="category-select" required>
+                <option value="" disabled selected>Выберите категорию</option>
+                <option value="Кат1">Кат1</option>
+                <option value="Кат2">Кат2</option>
+                <option value="Кат3">Кат3</option>
+                <option value="Кат4">Кат4</option>
+                <option value="Кат5">Кат5</option>
+                <option value="Кат6">Кат6</option>
+                <option value="Кат7">Кат7</option>
+                <option value="Кат8">Кат8</option>
+                <option value="Кат9">Кат9</option>
+                <option value="Кат10">Кат10</option>
+            </select>
             <input type="text" id="user-input" placeholder="Введите данные..." required autocomplete="off">
             <button type="submit">Отправить</button>
         </form>
