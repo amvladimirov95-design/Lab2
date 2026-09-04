@@ -3,7 +3,7 @@ const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxNUvSxbhfUUjZfJf2x9
 // Генерация или получение user_id без авторизации
 let userId = localStorage.getItem('app_user_id');
 if (!userId) {
-    userId = 'user_' + Math.random().toString(36.substring(2, 9));
+    userId = 'user_' + Math.random().toString(36).substring(2, 9);
     localStorage.setItem('app_user_id', userId);
 }
 
