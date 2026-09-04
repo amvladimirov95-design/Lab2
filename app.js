@@ -1,4 +1,4 @@
-const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxNUvSxbhfUUjZfJf2x9tXv1CLNzRwAGJwmWEt-xlXTVLqW4X5re3WV5d9wnZdH40Yt/exec';
+const SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbw43aJPPUlXE70hN_2jztkEO0NcgZAXsYGAUre7AcxhG7pNwNgc_N_S8eWw6ACapdIs/exec';
 
 let userId = localStorage.getItem('app_user_id');
 if (!userId) {
