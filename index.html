@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мобильный ввод данных</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Индикатор синхронизации в углу -->
+    <div id="sync-indicator" class="synced">✅ Готово</div>
+
+    <div class="container">
+        <h2>Ввод данных</h2>
+        <form id="data-form">
+            <input type="text" id="user-input" placeholder="Введите данные..." required autocomplete="off">
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
